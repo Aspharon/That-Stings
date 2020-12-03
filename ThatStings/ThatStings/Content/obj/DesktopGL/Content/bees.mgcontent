@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/bees.ogg</SourceFile>
+  <SourceTime>2020-12-03T15:03:14+01:00</SourceTime>
+  <DestFile>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/bin/DesktopGL/Content/bees.xnb</DestFile>
+  <DestTime>2020-12-03T15:23:34+01:00</DestTime>
+  <Importer>OggImporter</Importer>
+  <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2018-12-08T17:35:54+01:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/bin/DesktopGL/Content/bees.ogg</string>
+  </BuildOutput>
+</PipelineBuildEvent>

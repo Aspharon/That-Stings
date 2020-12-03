@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/0.png</File>
+    <File>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/1.png</File>
+    <File>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/2.png</File>
+    <File>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/3.png</File>
+    <File>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/bees.ogg</File>
+    <File>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/lost.png</File>
+    <File>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/playing.png</File>
+    <File>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/thud.wav</File>
+    <File>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/walk.wav</File>
+    <File>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/won.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
