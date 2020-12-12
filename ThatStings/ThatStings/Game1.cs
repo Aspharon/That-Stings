@@ -20,9 +20,10 @@ namespace ThatStings
         int facing; //0 1 2 3 --> N E S W
         Vector2 playerPos, beesPos;
         bool[,] level;
-        SoundEffect thud, walk;
+        bool wuss = false;
+        SoundEffect thud, walk, turn, togg;
         Song bees;
-        int beeTimer, beeSpeed = 240, fadeTimer;
+        int beeTimer, beeSpeed = 180, fadeTimer;
         int gamestate = 0; //0 = menu, 1 = playing, 2 = lost, 3 = won.
         public Astar astar;
 
@@ -34,6 +35,8 @@ namespace ThatStings
             IsMouseVisible = true;
             thud = Content.Load<SoundEffect>("thud");
             walk = Content.Load<SoundEffect>("walk");
+            turn = Content.Load<SoundEffect>("turn");
+            togg = Content.Load<SoundEffect>("wuss");
             bees = Content.Load<Song>("bees");
         }
 
@@ -113,6 +116,7 @@ namespace ThatStings
 
         void Move()
         {
+            Pixel pixel;
             Vector2 movement = Vector2.Zero;
             switch (facing)
             {
@@ -140,11 +144,21 @@ namespace ThatStings
             if (level[(int)newPos.X, (int)newPos.Y] == true)
             {
                 thud.Play();
+                if (wuss)
+                {
+                    pixel = new Pixel(newPos, Color.Red);
+                    Objects.List.Add(pixel);
+                }
                 return;
             }
 
 
             walk.Play();
+            if (wuss)
+            {
+                pixel = new Pixel(newPos, Color.White);
+                Objects.List.Add(pixel);
+            }
             playerPos = newPos;
         }
 
@@ -153,7 +167,15 @@ namespace ThatStings
             Stack<Node> path = astar.FindPath(beesPos, playerPos);
             Node newPos = path.Pop();
             beesPos = newPos.Position;
-            beeSpeed -= 10;
+            if (wuss)
+            {
+                Pixel pixel = new Pixel(beesPos, Color.Yellow);
+                Objects.List.Add(pixel);
+            }
+            if (beeSpeed > 30)
+            {
+                beeSpeed -= 10;
+            }
         }
 
         void Lose()
@@ -217,8 +239,23 @@ namespace ThatStings
 
                 case 1:
                     if (inputHelper.KeyPressed(Keys.W) || inputHelper.KeyPressed(Keys.Up)) Move();
-                    if (inputHelper.KeyPressed(Keys.A) || inputHelper.KeyPressed(Keys.Left)) facing--;
-                    if (inputHelper.KeyPressed(Keys.D) || inputHelper.KeyPressed(Keys.Right)) facing++;
+                    if (inputHelper.KeyPressed(Keys.A) || inputHelper.KeyPressed(Keys.Left))
+                    { facing--; turn.Play(); }
+                    if (inputHelper.KeyPressed(Keys.D) || inputHelper.KeyPressed(Keys.Right))
+                    { facing++; turn.Play(); }
+                    if (inputHelper.KeyPressed(Keys.Tab))
+                    {
+                        if (wuss == false)
+                        {
+                            wuss = true;
+                            Pixel ppixel = new Pixel(playerPos, Color.White);
+                            Objects.List.Add(ppixel);
+                            Pixel pixel = new Pixel(beesPos, Color.Yellow);
+                            Objects.List.Add(pixel);
+                        }
+                        else wuss = false;
+                        togg.Play();
+                    }
 
                     if (facing == -1) facing = 3;
                     if (facing == 4) facing = 0;

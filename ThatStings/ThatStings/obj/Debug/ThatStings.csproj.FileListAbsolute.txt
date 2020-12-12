@@ -1,7 +1,5 @@
 H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\obj\Debug\ThatStings.csprojAssemblyReference.cache
 H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\obj\Debug\ThatStings.csproj.CoreCompileInputs.cache
-H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\obj\Debug\UrbanParadiseBirds.exe
-H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\obj\Debug\UrbanParadiseBirds.pdb
 H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\DesktopGL\AnyCPU\Debug\x86\SDL2.dll
 H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\DesktopGL\AnyCPU\Debug\x64\SDL2.dll
 H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\DesktopGL\AnyCPU\Debug\x86\soft_oal.dll
@@ -13,8 +11,6 @@ H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\Desk
 H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\DesktopGL\AnyCPU\Debug\libSDL2-2.0.0.dylib
 H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\DesktopGL\AnyCPU\Debug\libopenal.1.dylib
 H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll.config
-H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\DesktopGL\AnyCPU\Debug\UrbanParadiseBirds.exe
-H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\DesktopGL\AnyCPU\Debug\UrbanParadiseBirds.pdb
 H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dll
 H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\obj\Debug\ThatStings.csproj.CopyComplete
 H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\DesktopGL\AnyCPU\Debug\Content\bees.ogg
@@ -29,3 +25,9 @@ H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\Desk
 H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\DesktopGL\AnyCPU\Debug\Content\playing.xnb
 H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\DesktopGL\AnyCPU\Debug\Content\walk.xnb
 H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\DesktopGL\AnyCPU\Debug\Content\won.xnb
+H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\DesktopGL\AnyCPU\Debug\Content\turn.xnb
+H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\DesktopGL\AnyCPU\Debug\ThatStings.exe
+H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\DesktopGL\AnyCPU\Debug\ThatStings.pdb
+H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\obj\Debug\ThatStings.exe
+H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\obj\Debug\ThatStings.pdb
+H:\UU\3-1 - Minor Game Design\Kernmodule 2\Game 7\ThatStings\ThatStings\bin\DesktopGL\AnyCPU\Debug\Content\wuss.xnb

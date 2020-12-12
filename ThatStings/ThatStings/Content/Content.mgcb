@@ -100,6 +100,12 @@
 /processorParam:Quality=Best
 /build:thud.wav
 
+#begin turn.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:turn.wav
+
 #begin walk.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
@@ -117,4 +123,10 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:won.png
+
+#begin wuss.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:wuss.wav
 

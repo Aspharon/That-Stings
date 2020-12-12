@@ -12,10 +12,14 @@
     <File>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/lost.png</File>
     <File>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/playing.png</File>
     <File>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/thud.wav</File>
+    <File>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/turn.wav</File>
     <File>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/walk.wav</File>
     <File>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/won.png</File>
+    <File>H:/UU/3-1 - Minor Game Design/Kernmodule 2/Game 7/ThatStings/ThatStings/Content/wuss.wav</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
